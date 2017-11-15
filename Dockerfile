@@ -1,4 +1,4 @@
-FROM redis:latest
+FROM redis:3
 MAINTAINER rmkn
 
 COPY slave.sh /usr/local/bin/
